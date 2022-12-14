@@ -23,7 +23,7 @@ h2 {
     border: 4px solid rgb(98, 6, 180);
 }
 
-/* Home Page */
+/* Page Content */
 .container {
     border: 4px solid rgb(207, 238, 29);
     border-radius: 25px;
@@ -38,6 +38,21 @@ h1 {
     text-align: center;
 }
 
+/* Menu Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+}
+
+img {
+    width: 80%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Tablets and Larger */
 @media only screen and (min-width: 600px) {
     header {
@@ -46,5 +61,14 @@ h1 {
 
     .container {
         width: clamp(200px, 80%, 500px);
+    }
+
+    .grid {
+        grid-template-columns: 35% 35%;
+        gap: 5%;
+    }
+
+    img {
+        height: 350px;
     }
 }
