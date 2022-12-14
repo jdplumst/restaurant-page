@@ -1,6 +1,4 @@
 export default function displayHome() {
-    console.log('I got called from home.js!');
-
     // Get content div from index.html
     const contentDiv = document.querySelector('#content');
 

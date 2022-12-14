@@ -1,5 +1,6 @@
 import displayHome from "./home";
 import displayMenu from "./menu";
+import displayContact from "./contact";
 
 const contentDiv = document.querySelector('#content');
 const homeBtn = document.querySelector('.home');
@@ -41,4 +42,5 @@ contactBtn.addEventListener('click', () => {
 
     // Display Contact page
     contentDiv.innerHTML = '';
+    displayContact();
 });

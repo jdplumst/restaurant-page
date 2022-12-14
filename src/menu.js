@@ -17,10 +17,16 @@ import Neptune from './neptune.jpg';
 // https://unsplash.com/photos/TqOEGdRNowY
 
 export default function displayMenu() {
-    console.log("yo it's the menu function");
-
     // Get content div from index.html
     const contentDiv = document.querySelector('#content');
+
+    // Create title for menu page
+    const titleDiv = document.createElement('div');
+    titleDiv.classList.add('container');
+    const titleText = document.createElement('h1');
+    titleText.innerText = 'Menu';
+    titleDiv.appendChild(titleText);
+    contentDiv.appendChild(titleDiv);
 
     // Create menu grid
     const gridDiv = document.createElement('div');

@@ -24,7 +24,7 @@ h2 {
 }
 
 /* Page Content */
-.container {
+.container, .worker {
     border: 4px solid rgb(207, 238, 29);
     border-radius: 25px;
     margin-bottom: 20px;
@@ -53,13 +53,20 @@ img {
     margin-right: auto;
 }
 
+/* Contact Page Content */
+.worker {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 /* Tablets and Larger */
 @media only screen and (min-width: 600px) {
     header {
         width: clamp(300px, 50%, 500px);
     }
 
-    .container {
+    .container, .worker {
         width: clamp(200px, 80%, 500px);
     }
 
@@ -70,5 +77,14 @@ img {
 
     img {
         height: 350px;
+    }
+
+    .worker {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .worker img {
+        margin-right: 0;
     }
 }
