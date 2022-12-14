@@ -1,20 +1,12 @@
 // Import images
 import Mercury from './mercury.jpg';
-// https://unsplash.com/photos/9Qs_9n2oSJo
 import Venus from './venus.jpg';
-// https://unsplash.com/photos/17ZU9BPy_Q4
 import Earth from './earth.jpg';
-// https://unsplash.com/photos/IGfIGP5ONV0
 import Mars from './mars.jpg';
-// https://unsplash.com/photos/DPNrBT1WCMs
 import Jupiter from './jupiter.jpg';
-// https://unsplash.com/photos/99muSP3cqhY
 import Saturn from './saturn.jpg';
-// https://unsplash.com/photos/4FO9vox0T7M
 import Uranus from './uranus.jpg';
-// https://unsplash.com/photos/X5u6snvBCf0
 import Neptune from './neptune.jpg';
-// https://unsplash.com/photos/TqOEGdRNowY
 
 export default function displayMenu() {
     // Get content div from index.html

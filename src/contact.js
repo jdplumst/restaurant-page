@@ -1,9 +1,6 @@
 import Sun from './sun.jpg';
-// https://unsplash.com/photos/JHyiw_dpALk
 import Moon from './moon.jpg';
-// https://unsplash.com/photos/uIf6H1or1nE
 import Pluto from './pluto.jpg';
-// https://unsplash.com/photos/-5V6VZxSQRo
 
 export default function displayContact() {
     // Get content div from index.html
