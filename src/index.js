@@ -1,6 +1,7 @@
 import displayHome from "./home";
 import displayMenu from "./menu";
 import displayContact from "./contact";
+import './styles.css';
 
 const contentDiv = document.querySelector('#content');
 const homeBtn = document.querySelector('.home');
